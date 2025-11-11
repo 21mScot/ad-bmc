@@ -6,6 +6,16 @@ import numpy as np
 import plotly.express as px
 from datetime import datetime
 
+# === BTC NETWORK CONSTANTS (Update at halving) ===
+BLOCKS_PER_DAY   = 144          # ~10-min blocks
+BLOCK_REWARD     = 3.125        # Current subsidy (post-2024)
+POOL_FEE_PCT     = 0.01         # 1% pool fee
+DAYS_PER_YEAR    = 365.25
+COINGECKO_TIMEOUT = 5           # seconds
+COINGEKO_URL     = "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=gbp"
+BLOCKCHAIN_TIMEOUT = 10        # seconds
+BLOCKCHAIN_URL   = "https://api.blockchain.info/charts/hash-rate?format=json&timespan=30days"
+
 st.set_page_config(page_title="AD → BTC Mining Calculator", layout="centered")
 
 # === CONFIG ===
@@ -15,37 +25,43 @@ MINER_SPECS = {
     "Antminer S21 XP Hydro (11 J/TH)": {"j_th": 11, "cost_per_mw_gbp": 2_800_000},
 }
 
-# === LIVE DATA (Zero-safe) ===
+# === LIVE DATA ===
 @st.cache_data(ttl=60)
 def fetch_market_data():
     try:
-        btc = requests.get(
-            "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=gbp",
-            timeout=5
+        btc = requests.get(COINGEKO_URL,
+            timeout=COINGECKO_TIMEOUT
         ).json()["bitcoin"]["gbp"]
-        hr_res = requests.get(
-            "https://api.blockchain.info/charts/hash-rate?format=json&timespan=1days",
-            timeout=5
+        hr_res = requests.get(BLOCKCHAIN_URL,
+            timeout=BLOCKCHAIN_TIMEOUT
         ).json()
-        hashrate_eh = round(np.mean([p["y"] for p in hr_res["values"][-24:]]) / 1e18, 0)
-        if hashrate_eh <= 0:
-            raise ValueError("Hashrate zero")
+        values = [p["y"] for p in hr_res["values"] if p["y"] is not None]
+        if not values:
+            raise ValueError("No hashrate data")
+        hashrate_eh = round(sum(values) / len(values) / 1e18, 0)
         return int(btc), int(hashrate_eh)
-    except:
-        st.warning("Live data failed. Using Nov 2025 defaults: BTC £80,000 | Hashrate 1,111 EH/s")
-        return 80000, 1111  # Safe fallback
+    except Exception as e:
+        st.warning(f"Live data failed: {e}. Using Nov 2025 defaults.")
+        return 80000, 1111
 
 BTC_PRICE, HASHRATE = fetch_market_data()
 
-# === Safety guard before calc ===
+# === Safety guard ===
 if HASHRATE == 0:
-    HASHRATE = 1111  # Final fallback
+    st.warning("Hashrate is zero. Forcing fallback to 1,111 EH/s.")
+    HASHRATE = 1111
+
+# === BTC YIELD (CORRECT) ===
+total_btc_per_year = BLOCKS_PER_DAY * DAYS_PER_YEAR * BLOCK_REWARD
+network_eh = HASHRATE
+network_th = network_eh * 1_000_000  # 1 EH/s = 1e6 TH/s
+
 
 # === INPUTS ===
 with st.sidebar:
     st.header("AD Plant")
     chp_mw = st.slider("CHP Size (MW)", 0.1, 5.0, 1.0, 0.1)
-    load_factor = st.slider("Load Factor (%)", 80, 98, 92, 1) / 100
+    load_factor = st.slider("Load Factor (%)", 80, 98, 95, 1) / 100
     roc_rtfo = st.selectbox(
         "ROC/RTFO Status",
         ["ROC + RTFO (5% min export)", "ROC only (10% min export)", "None (0% min export)"]
@@ -68,10 +84,10 @@ min_export_pct = 0.05 if "ROC + RTFO" in roc_rtfo else 0.10 if "ROC only" in roc
 max_mining_mwh = annual_mwh * (1 - min_export_pct)
 actual_mining_mwh = min(mining_mw * 8760 * 0.98, max_mining_mwh)
 
+btc_per_th_year = total_btc_per_year / network_th
+
 th_per_mwh = 1_000_000 / j_th
-blocks_per_year = 525_600
-btc_per_th_year = (blocks_per_year * 3.125) / (HASHRATE * 1e6)
-btc_per_mwh = btc_per_th_year * th_per_mwh * 0.99
+btc_per_mwh = btc_per_th_year * th_per_mwh * (1 - POOL_FEE_PCT)
 total_btc = btc_per_mwh * actual_mining_mwh
 revenue_btc = total_btc * BTC_PRICE
 
@@ -112,5 +128,39 @@ with st.expander("Detailed Breakdown"):
     st.write(f"**Annual MWh**: {annual_mwh:,.0f} | **Max Mining MWh**: {max_mining_mwh:,.0f}")
     st.write(f"**Grid savings**: £{grid_savings:,.0f} (@ £{grid_save_mwh}/MWh)")
     st.write(f"**Capex annuity**: £{capex_annuity:,.0f} | **Opex**: £{opex_annual:,.0f}")
+    
+    st.caption("All values update every 60s or use Nov 2025 defaults on failure")
+
+
+with st.expander("Bitcoin mining - fixed inputs"):
+    col_a, col_b = st.columns(2)
+    with col_a:
+         st.write(f"**1. Blocks per day**", f"{BLOCKS_PER_DAY}")
+    with col_b:
+        st.write(f"**2. Target time per block**", f"10 minutes")
+    st.caption("However, these can vary slightly due to network conditions.")
+
+
+with st.expander("Bitcoin mining - external variables, uncontrollable"):
+    st.markdown("""
+    <small>These drive 98% of BTC revenue uncertainty. We pull live data where possible.</small>
+    """, unsafe_allow_html=True)
+    col_a, col_b = st.columns(2)
+    with col_a:
+        st.write(f"**1. BTC Price**", f"£{BTC_PRICE:,}")
+        st.write(f"**2. Network Hashrate**", f"{HASHRATE:,} EH/s")
+        st.write(f"**3. Network difficulty**", f"??? BTC")
+    with col_b:
+        st.write(f"**3. Block Subsidy**", f"{BLOCK_REWARD} BTC")
+        st.write(f"**Pool hard coded, Block Reward not subsidy & fees**", f"{j_th}")
+    st.caption("All values update every 60s or use Nov 2025 defaults on failure")
+
+with st.expander("Bitcoin mining - variables we can control"):
+    col1, col2 = st.columns(2)
+    with col1:
+        st.metric("first", f"£{BTC_PRICE:,}", help="Live from CoinGecko")
+        st.metric("Pool Fee", f"{POOL_FEE_PCT:.0%}")
+    with col2:
+        st.metric("second", f"{BLOCKS_PER_DAY}", help="~144 (10-min target)")
 
 st.caption("Built for AD operators • Share: ad-bmc.streamlit.app")
