@@ -16,3 +16,19 @@ MINER_SPECS = {
     "Whatsminer M50S++ (24 J/TH)": {"j_th": 24, "cost_per_mw_gbp": 1_600_000},
     "Antminer S21 XP Hydro (11 J/TH)": {"j_th": 11, "cost_per_mw_gbp": 2_800_000},
 }
+
+# --- ASIC selection strategy ---
+# If non-empty, we ONLY show the top 6 miners from this brand.
+PREFERRED_BRAND_ASICS = ""   # e.g. "MicroBT" or "" to disable
+
+# If PREFERRED_BRAND_ASICS is "", we guarantee at least one model
+# from each brand listed here (if available), then fill remaining
+# slots by next-best efficiency with brand diversity.
+MUST_INCLUDE_ASICS = [
+    "MicroBT",
+    "Bitmain",
+    "Bitdeer",
+    "Auradine",
+    "Canaan",
+    "Innosilicon",
+]
