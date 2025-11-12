@@ -70,7 +70,7 @@ def calculate(chp_mw, load_factor, roc_rtfo, eii, miner_model, mining_mw):
         "net_revenue": net_revenue,
         "net_per_mwh": net_per_mwh,
         "payback_months": payback_months,
-         "annual_mwh": annual_mwh,
+        "annual_mwh": annual_mwh,
         "max_mining_mwh": max_mining_mwh,
         "actual_mining_mwh": actual_mining_mwh,
         "effective_mw": effective_mw,
