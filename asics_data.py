@@ -36,8 +36,23 @@ def _find_todays_file(ext="csv") -> Optional[Path]:
     matches = sorted(glob.glob(pattern))
     return Path(matches[-1]) if matches else None
 
+def _find_latest_file(ext="csv") -> Optional[Path]:
+    pattern = str(DATA_DIR / f"minerstat_asic_sha256_*.{ext}")
+    matches = sorted(glob.glob(pattern))
+    return Path(matches[-1]) if matches else None
+
 def _fetch_minerstat_sha256() -> pd.DataFrame:
-    j = requests.get("https://api.minerstat.com/v2/hardware", timeout=60).json()
+    try:
+        resp = requests.get("https://api.minerstat.com/v2/hardware", timeout=60)
+        resp.raise_for_status()
+        try:
+            j = resp.json()
+        except Exception as exc:
+            snippet = (resp.text or "").replace("\n", "\\n")[:200]
+            raise RuntimeError(f"Minerstat returned non-JSON payload (status {resp.status_code}, starts with: {snippet})") from exc
+    except Exception as exc:
+        raise RuntimeError("Failed to download minerstat SHA-256 hardware list") from exc
+
     rows, fetched_at = [], dt.datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
     for item in j:
         if str(item.get("type", "")).lower() != "asic":
@@ -71,17 +86,24 @@ def ensure_today_csv() -> Path:
     existing = _find_todays_file("csv")
     if existing and existing.exists():
         return existing
+
     try:
         df = _fetch_minerstat_sha256()
+        if df.empty:
+            raise RuntimeError("Minerstat returned no ASIC data")
         out = _make_filename("csv")
         df.to_csv(out, index=False)
         return out
     except Exception:
-        # If fetch fails, but we have any CSV today, use it.
-        if existing and existing.exists():
-            return existing
-        # Otherwise rethrow with context
         traceback.print_exc()
+        # If fetch fails, prefer today's file if present, else the most recent snapshot or bundled CSV.
+        fallback = existing if existing and existing.exists() else _find_latest_file("csv")
+        if fallback and fallback.exists():
+            return fallback
+        bundled = DATA_DIR / "minerstat_asic_sha.csv"
+        if bundled.exists():
+            return bundled
+        # Otherwise rethrow with context
         raise
 
 def load_today_df() -> pd.DataFrame:
@@ -194,4 +216,3 @@ def get_specs_by_id(miner_id: str):
         "power_w": _as_float(r.get("power_W")),
         "efficiency_j_th": _as_float(r.get("efficiency_J_per_TH")),
     }
-

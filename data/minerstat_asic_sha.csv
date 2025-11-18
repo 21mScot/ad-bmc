@@ -1,0 +1,261 @@
+id,name,brand,url,hashrate_THs,power_W,efficiency_J_per_TH,retrieved_at
+17551b0ebe8b49169ec6a110cdf1551f33f86926,Bitmain Antminer S23 Hyd 3U,Bitmain,bitmain-antminer-s23-hydro-u3-1160th,1160,11020,9.5,2025-11-15 15:30:22 UTC
+4a6bfd1995bc16264467895891165bd2fc50fe95,Bitmain Antminer S23 Hyd (580Th),Bitmain,bitmain-antminer-s23-hyd-580th,580,5510,9.5,2025-11-15 15:30:22 UTC
+3ae2996159ad15be2c874213b20c42feb6bf21f0,Bitmain Antminer S21 XP+ Hyd (500Th),Bitmain,bitmain-antminer-s21-xp-plus-hyd-500th,500,5500,11,2025-11-15 15:30:22 UTC
+06fa43a4b4a63b622e36e3cd4ef55fcfec070b97,Bitmain Antminer S23 Immersion (442Th),Bitmain,bitmain-antminer-s23-immersion-442th,368,4048,11,2025-11-15 15:30:22 UTC
+21188f1974ee9a6a79de64dee0fc849629de3181,Bitmain Antminer S23 (318Th),Bitmain,bitmain-antminer-s23-318th,318,3498,11,2025-11-15 15:30:22 UTC
+cbf0e28c4d72d19c7110f2515f4fc064816fae57,Bitmain Antminer S21 XP Hyd (473Th),Bitmain,bitmain-antminer-s21-xp-hyd-473th,473,5676,12,2025-11-15 15:30:22 UTC
+71a90f55db81da1a538d0ce6ccdf7d07d2d2e845,Bitdeer SealMiner A3 Pro Hydro,Bitdeer,bitdeer-sealminer-a3-pro-hydro,660,8250,12.5,2025-11-15 15:30:22 UTC
+8e3d85dccb3590a3a24194d0736e4054d699460f,Bitdeer SealMiner A3 Pro Air,Bitdeer,bitdeer-sealminer-a3-pro-air,290,3625,12.5,2025-11-15 15:30:22 UTC
+4899b53c2e1c29a9236040b0b95990c63148cb1e,Bitmain Antminer S21e XP Hyd 3U,Bitmain,bitmain-antminer-s21e-xp-hydro-860th,860,11180,13,2025-11-15 15:30:22 UTC
+40cb7530c53bb63ec455a175841921a3af351c0f,Bitmain Antminer S21e XP Hyd (430Th),Bitmain,bitmain-antminer-s21e-xp-hyd-430th,430,5590,13,2025-11-15 15:30:22 UTC
+d04133bd840b69ee1554e111912b419928dea133,Bitdeer SealMiner A3 Hydro,Bitdeer,bitdeer-sealminer-a3-hydro,500,6750,13.5,2025-11-15 15:30:22 UTC
+739adce0f32494bfabaacc0bafd3db60b82a3397,Bitmain Antminer S21 XP Immersion (300Th),Bitmain,bitmain-antminer-s21-xp-immersion-300th,300,4050,13.5,2025-11-15 15:30:22 UTC
+d869b04564bc4b4c6adcf3ad6f00e45c1150bc41,Bitmain Antminer S21 XP (270Th),Bitmain,bitmain-antmine-s21-xp-270th,270,3645,13.5,2025-11-15 15:30:22 UTC
+5f0748eb7d328dd4f36ea6646d3582f78f397651,Bitaxe Touch,Bitaxe,bitaxe-bitaxe-touch,1.6,22,13.75,2025-11-15 15:30:22 UTC
+074fe681c9742d991dc00dc287aba5094ff8c678,Bitdeer SealMiner A3 Air,Bitdeer,bitdeer-sealminer-a3-air,260,3640,14,2025-11-15 15:30:22 UTC
+643fec50e79c69bc6bbb7616afd3904acf40867c,Bitaxe Gamma 601,Bitaxe,bitaxe-gamma-601,1.2,17,14.17,2025-11-15 15:30:22 UTC
+de5f4d63e99977a60bee1c8bd77cf91fe4f4c8ef,Bitaxe Gamma Turbo,Bitaxe,bitaxe-bitaxe-gt-gamma-turbo,2.4,35,14.58,2025-11-15 15:30:22 UTC
+db9af2f9bf14fd96af0c66e8193df7b24a72e6b8,Proto Rig,Proto,proto-proto-rig,819,12000,14.65,2025-11-15 15:30:22 UTC
+61a58776e81ea61a71b9906ed9b737310c8d3138,Fluminer T3,Fluminer,fluminer-fluminer-t3,115,1700,14.78,2025-11-15 15:30:22 UTC
+efd4b75aca1ede0c5aac02465552865354bcae24,Auradine Teraflux AH3880,Auradine,auradine-teraflux-ah3880,400,5920,14.8,2025-11-15 15:30:22 UTC
+8621c903d2df1cadab84f4f958df7b53e6011f17,Bitdeer SealMiner A2 Pro Air,Bitdeer,bitdeer-sealminer-a2-pro-air,255,3790,14.86,2025-11-15 15:30:22 UTC
+ce717558c2f5fb24a32efbf9142b8e1a734f9f72,Bitdeer SealMiner A2 Pro Hyd,Bitdeer,bitdeer-sealminer-a2-pro-hyd,500,7450,14.9,2025-11-15 15:30:22 UTC
+5a879155f08a8a1463612521d6fc9a7906256574,Bitmain Antminer S21+ Hyd (358Th),Bitmain,bitmain-antminer-s21-plus-hyd-358th,358,5370,15,2025-11-15 15:30:22 UTC
+84a36e2847c33ac03a7223b57b0c864b80ab26c8,Bitmain Antminer S21+ Hyd (319Th),Bitmain,bitmain-antminer-s21-plus-hyd-319th,319,4785,15,2025-11-15 15:30:22 UTC
+64e0cfdcb9cb9a94dabbe7806d529ae6b808d7d6,Bitmain Antminer S21 Pro (234Th),Bitmain,bitmain-antminer-s21-pro-234th,234,3510,15,2025-11-15 15:30:22 UTC
+e6300965cd65b665cb36b3c5691be0f11b0872cb,Digital Shovel BluAx,Digital Shovel,digital-shovel-bluax,1.2,18,15,2025-11-15 15:30:22 UTC
+13589fdd9299e1aa7fea07d5ad4812ed91cd7ee3,MicroBT WhatsMiner M66S++,MicroBT,microbt-whatsminer-m66s-plus-plus,356,5518,15.5,2025-11-15 15:30:22 UTC
+d045236a0e03750520fa4d9cfa962fd38f11217d,MicroBT WhatsMiner M63S++,MicroBT,microbt-whatsminer-m63s-plus-plus,464,7200,15.52,2025-11-15 15:30:22 UTC
+a65152f5adc31a90dcd4d4130f69f9a98c424d0c,NerdMiner NerdQaxe++,NerdMiner,nerdminer-nerdqaxe-plus-plus,4.8,76,15.83,2025-11-15 15:30:22 UTC
+0a55b9a2a6115719d9e3fb9a4ef4a8be87167cde,MicroBT WhatsMiner M60S++,MicroBT,microbt-whatsminer-m60s-plus-plus,226,3600,15.93,2025-11-15 15:30:22 UTC
+02e0a51e74de584591fb1037b10bada5a4053b1e,Bitmain Antminer S21 Hyd (335Th),Bitmain,bitmain-antminer-s21-hyd-335th,335,5360,16,2025-11-15 15:30:22 UTC
+a0d04378f37973ffa3b2aa8b3e27a3f0a98de06d,Antminer S21 Hyd,Antminer,antminer-s21-hyd,335,5360,16,2025-11-15 15:30:22 UTC
+63cff56720d7927539651a6861d30e068332ffa0,Bitmain Antminer S21 Immersion (301Th),Bitmain,bitmain-antminer-s21-immersion-301th,215,3440,16,2025-11-15 15:30:22 UTC
+7e24c031744eb93c165be7daac9d575bfb04e13a,Auradine Teraflux AI3680,Auradine,auradine-teraflux-ai3680,200,3200,16,2025-11-15 15:30:22 UTC
+86c65f5ed93ed5233793c42988f84829ba32bab1,Bitdeer SealMiner A2 Hyd,Bitdeer,bitdeer-sealminer-a2-hyd,446,7360,16.5,2025-11-15 15:30:22 UTC
+47c5c6f332aa2d927a70073a43090d99c39fcd83,Bitmain Antminer S21+ (235Th),Bitmain,bitmain-antminer-s21-plus-235th,235,3877,16.5,2025-11-15 15:30:22 UTC
+0a9598cdad8c65805b7886305c6cb7d3a4ca6d81,Bitdeer SealMiner A2,Bitdeer,bitdeer-sealminer-a2,226,3730,16.5,2025-11-15 15:30:22 UTC
+9b57b2310b54cc1b92c7de8ec68bbd41778994ac,Bitmain Antminer S21+ (225Th),Bitmain,bitmain-antminer-s21-plus-225th,225,3712,16.5,2025-11-15 15:30:22 UTC
+4d2b62d9c64119cb4313e92b233c7793c63e6302,Bitmain Antminer S21+ (216Th),Bitmain,bitmain-antminer-s21-plus-216th,216,3564,16.5,2025-11-15 15:30:22 UTC
+caaa9552af2f6811278fe10f8f42beece2a72fdd,Canaan Avalon A1566HA 2U,Canaan,canaan-avalon-a1566ha,480,8064,16.8,2025-11-15 15:30:22 UTC
+d22db111828e73fab9d406af977218ea4f35451c,Canaan Avalon A15Pro-218T,Canaan,canaan-a15pro-218t,218,3662,16.8,2025-11-15 15:30:22 UTC
+ab6ad881e7d1e78559ff2f9cb718f888bcd4d596,MicroBT WhatsMiner M60S+,MicroBT,microbt-whatsminer-m60s-plus,212,3600,16.98,2025-11-15 15:30:22 UTC
+df977a48f2a8bd3b1f399855135dc28faaaf09be,MicroBT WhatsMiner M63S+,MicroBT,microbt-whatsminer-m63s-plus,424,7208,17,2025-11-15 15:30:22 UTC
+a88e851588bccffa88e13a9447b5a5cd1cf1304f,MicroBT WhatsMiner M66S+,MicroBT,microbt-whatsminer-m66s-plus,318,5406,17,2025-11-15 15:30:22 UTC
+3413b8533e826b3f881a50cef818b60da3c23659,Bitmain Antminer S21e Hyd (310Th),Bitmain,bitmain-antminer-s21e-hyd-310th,310,5270,17,2025-11-15 15:30:22 UTC
+bfdf327b0181fe243a046eed489bc115038384f5,Bitmain Antminer S21e Hyd (288Th),Bitmain,bitmain-antminer-s21e-hyd-288th,288,4896,17,2025-11-15 15:30:22 UTC
+3ecc7d38bdca415a2256a20a563b7d618125ee35,Canaan Avalon A1566I,Canaan,canaan-avalon-a1566i,261,4500,17.24,2025-11-15 15:30:22 UTC
+66efd9eefecf45dd64eff8e5cb2d13e005041925,Bitmain Antminer S21 (200Th),Bitmain,bitmain-antminer-s21-200th,200,3500,17.5,2025-11-15 15:30:22 UTC
+c42bbfcf09765300b488eb9c457aa4e5f456a3d1,Canaan Avalon A15XP-206T,Canaan,canaan-a15xp-206t,206,3667,17.8,2025-11-15 15:30:22 UTC
+58a5cb49b3868b6ed182cd0496d712e8aa27e124,Bitaxe Supra Hex 701,Bitaxe,bitaxe-supra-hex-701,4.2,75,17.86,2025-11-15 15:30:22 UTC
+3820eccabc46f2c4f038c662d6542e8a9bd0de20,Auradine Teraflux AT2880,Auradine,auradine-teraflux-at2880,260,4680,18,2025-11-15 15:30:22 UTC
+4fa67f1265d138de3a014db126293aac7cfe8805,Canaan Avalon A1566,Canaan,canaan-avalon-a1566,185,3420,18.49,2025-11-15 15:30:22 UTC
+190b4404bb885e4726d13a9ebf39ae8c7b0d6d22,MicroBT WhatsMiner M63S,MicroBT,microbt-whatsminer-m63s,390,7215,18.5,2025-11-15 15:30:22 UTC
+612d9ec34bddce122042db4c143e86dca655bc15,MicroBT WhatsMiner M66S,MicroBT,microbt-whatsminer-m66s,298,5513,18.5,2025-11-15 15:30:22 UTC
+a8229923f9654788a1b8fd175278f5bfdb45b571,MicroBT WhatsMiner M60S,MicroBT,microbt-whatsminer-m60s,186,3441,18.5,2025-11-15 15:30:22 UTC
+d2ba507d472692b3b77842016c9361b401b7e00c,Canaan Avalon Q,Canaan,canaan-avalon-q,90,1674,18.6,2025-11-15 15:30:22 UTC
+5a420448bb37a950fe50ce58a904922912773086,Canaan Avalon A15-194T,Canaan,canaan-a15-194t,194,3647,18.8,2025-11-15 15:30:22 UTC
+2554f29ab42bd39680a67076a7830c0126a2672c,Bitmain Antminer S19 XP+ Hyd (293Th),Bitmain,bitmain-antminer-s19-xp-plus-hyd-293th,293,5567,19,2025-11-15 15:30:22 UTC
+323621a00c94f0d1c848e8962af7adbe478f274e,Bitmain Antminer S19 XP+ Hyd (279Th),Bitmain,bitmain-antminer-s19-xp-plus-hyd-279th,279,5301,19,2025-11-15 15:30:22 UTC
+ff075d214040a5d1fa56101542a4aaca51f73f3e,Bitmain Antminer T21 (190Th),Bitmain,bitmain-antminer-t21-190th,190,3610,19,2025-11-15 15:30:22 UTC
+3cacfd9c7fb9cb4cb9e97f95107e5e56bf020c5d,Bitmain Antminer T21 (180Th),Bitmain,bitmain-antminer-t21-180th,180,3420,19,2025-11-15 15:30:22 UTC
+070ee49d20d19d115980014895f74c406c05bf05,Jingle Miner BTC Solo Lite,Jingle Miner,jingle-miner-btc-solo-lite,1.2,23,19.17,2025-11-15 15:30:22 UTC
+568ec2e947b461a0de50f07fb87b7c5cc489187f,MicroBT WhatsMiner M63,MicroBT,microbt-whatsminer-m63,334,6646,19.9,2025-11-15 15:30:22 UTC
+e4e36b42fb2f69eedbf971c15d8a672dd4bc36aa,MicroBT WhatsMiner M66,MicroBT,microbt-whatsminer-m66,280,5572,19.9,2025-11-15 15:30:22 UTC
+2f07bc03d04555299a80cb87d44ee79ddf699411,MicroBT WhatsMiner M60,MicroBT,microbt-whatsminer-m60,172,3422,19.9,2025-11-15 15:30:22 UTC
+46b97e6934ff6cda7bf3475ae9287ca1602723a8,Jingle Miner BTC Solo Pro,Jingle Miner,jingle-miner-btc-solo-pro,4.8,96,20,2025-11-15 15:30:22 UTC
+023c147537dfe1c60595364ee7a14cfc793e396d,NerdMiner NerdQaxe+,NerdMiner,nerdminer-nerdqaxe-plus,2.5,50,20,2025-11-15 15:30:22 UTC
+2290997cf4140b73fb0faa6eee588bd0aa0403cf,Bitmain Antminer S19 XP Hyd 3U,Bitmain,bitmain-antminer-s219-xp-hydro-512th,512,10600,20.7,2025-11-15 15:30:22 UTC
+26bb69c2684d237596b9e0e749de761424adc7bb,Bitmain Antminer S19 XP Hyd (257Th),Bitmain,bitmain-antminer-s19-xp-hyd-257th,257,5345,20.8,2025-11-15 15:30:22 UTC
+3a5c91ed3507e0f6e8c1e0c40e9311269ae71f11,Canaan Avalon Mini 3,Canaan,canaan-avalon-mini-3,37.5,800,21.33,2025-11-15 15:30:22 UTC
+78c217d6e87dedb3ff90a522b3b1f9879145c39b,Bitmain Antminer S19j XP (151Th),Bitmain,bitmain-antminer-s19j-xp-151th,151,3247,21.5,2025-11-15 15:30:22 UTC
+9edd4e291a67381bace3ea4e5c60e1cc34c9e78e,Bitmain Antminer S19 XP (140Th),Bitmain,bitmain-antminer-s19-xp-140th,140,3010,21.5,2025-11-15 15:30:22 UTC
+eb65e208b715d3b42fc535aebcd8d3e7fb5f2c94,Antminer S19 XP,Antminer,antminer-s19-xp,140,3010,21.5,2025-11-15 15:30:22 UTC
+5fd057a6ff9dc7a124fa5c814765a498e5aa024a,Canaan Avalon Made A1466,Canaan,canaan-avalon-made-a1466,150,3230,21.53,2025-11-15 15:30:22 UTC
+c7131fc23f2b361048d5e6f71af5e2d595f9d66d,Bitmain Antminer T19 Pro Hyd (235Th),Bitmain,bitmain-antminer-t19-pro-hyd-235th,235,5170,22,2025-11-15 15:30:22 UTC
+5963f5b45919a815eb139134b57efb530fe7f634,Bitmain Antminer S19k Pro (120Th),Bitmain,bitmain-antminer-s19k-pro-120th,120,2760,23,2025-11-15 15:30:22 UTC
+df7ab41ae5c3578117be2af9c21d36fd83c7e594,Canaan Avalon Nano 3S,Canaan,canaan-avalon-nano-3S,6,140,23.33,2025-11-15 15:30:22 UTC
+bb3acf149db4936fbaca693a61d56be89205d997,Bitaxe Supra 401,Bitaxe,bitaxe-supra-401,0.6,14,23.33,2025-11-15 15:30:22 UTC
+afbebe5f5afca9b5f2460bc54e431a84eb8fc797,NerdMiner NerdQaxe+ Hydro,NerdMiner,nerdminer-nerdqaxe-plus-hydro,2.5,60,24,2025-11-15 15:30:22 UTC
+d32f6a6a74d2012dc8146e7da9c03e6191747556,Canaan Avalon Made A1446,Canaan,canaan-avalon-made-a1446,135,3310,24.52,2025-11-15 15:30:22 UTC
+8c4178948b7b02a62a91106c986bd5a70847c4c7,Canaan Avalon Made A1366,Canaan,canaan-avalon-made-a1366,130,3250,25,2025-11-15 15:30:22 UTC
+e0f34ffa3c10d2940937a2d499db16c5e72f5d58,Lucky Miner LV07,Lucky Miner,lucky-miner-lv07,1,25,25,2025-11-15 15:30:22 UTC
+5a13ee7191bf51da49d7c2a74d6d32e03b19c3d5,MicroBT Whatsminer M50S,MicroBT,microbt-whatsminer-m50s,128,3276,25.59,2025-11-15 15:30:22 UTC
+ea1b37da89c9714afa6e8264911e12813c480b40,Bitaxe Ultra 1366,Bitaxe,bitaxe-ultra-1366,0.42,11,25.88,2025-11-15 15:30:22 UTC
+ab39c54239118a4b086b878b7878100f769dd197,MicroBT Whatsminer M53S,MicroBT,microbt-whatsminer-m53s,260,6760,26,2025-11-15 15:30:22 UTC
+9f5b0793b0cbfcf25d48605c3e80c19203d2b414,Bitmain Antminer S19 Pro++,Bitmain,bitmain-antminer-s19-pro-plus-plus,125,3250,26,2025-11-15 15:30:22 UTC
+7513f90fc527b77418e58e49c96df7cd1ceed599,MicroBT WhatsMiner M56S,MicroBT,microbt-whatsminer-m56s,212,5550,26.18,2025-11-15 15:30:22 UTC
+45b9f0e0d41f9e4b850512b0afeeb0e313315f43,Lucky Miner LV08,Lucky Miner,lucky-miner-lv08,4.5,120,26.67,2025-11-15 15:30:22 UTC
+37481c2fb0a5d6d7d1e1f969754c9967c752da4d,Bitmain Antminer S19 Pro+ Hyd (198Th),Bitmain,bitmain-antminer-s19-pro-hyd-198th,198,5445,27.5,2025-11-15 15:30:22 UTC
+348763862f0a868bdc2591812b783206c351bc2f,Antminer S19 Pro+ Hydro,Antminer,antminer-s19-pro-plus-hydro,191,5252,27.5,2025-11-15 15:30:22 UTC
+1de27063b1a52baba933b41f71c67ae668f38c8b,Bitmain Antminer S19j Pro+ (122Th),Bitmain,bitmain-antminer-s19j-pro-122th,122,3355,27.5,2025-11-15 15:30:22 UTC
+b4e131670a970c281e7740526950c0285e9d9fdf,MicroBT WhatsMiner M56,MicroBT,microbt-whatsminer-m56,194,5550,28.61,2025-11-15 15:30:22 UTC
+053f7d6e260d62b35b0154ac51a5b63a4c4a4932,MicroBT Whatsminer M53,MicroBT,microbt-whatsminer-m53,230,6670,29,2025-11-15 15:30:22 UTC
+2a3c90346d40e9c540050534d832ceb3e0d25a49,MicroBT Whatsminer M50,MicroBT,microbt-whatsminer-m50,114,3306,29,2025-11-15 15:30:22 UTC
+4dc36912b7f591ac9325d87571088bcb7536d6dc,Bitmain Antminer S19 Pro Hyd (177Th),Bitmain,bitmain-antminer-s19-pro-hyd-177th,177,5221,29.5,2025-11-15 15:30:22 UTC
+4a0e88cf529fbbdc2c0a995bbe88a0a86212ed8d,Antminer S19 Pro Hydro,Antminer,antminer-s19-pro-hydro,170,5015,29.5,2025-11-15 15:30:22 UTC
+b2d788c31f49e1601f12eed77581cc6efa2e9b52,Bitmain Antminer S19j Pro (104Th),Bitmain,bitmain-antminer-s19j-pro-104th,104,3068,29.5,2025-11-15 15:30:22 UTC
+3974230bedb7be31cc0210a0d68e274dcbd0b922,Bitmain Antminer S19j Pro (96Th),Bitmain,bitmain-antminer-s19j-pro-96th,96,2832,29.5,2025-11-15 15:30:22 UTC
+28dbd229dce3713e208fa3805d9c75d8e240ced9,Bitmain Antminer S19 Pro (110Th),Bitmain,bitmain-antminer-s19-pro-110th,110,3250,29.55,2025-11-15 15:30:22 UTC
+9366fd51e17e65e8d9a6aae9f08e1553e1b8170e,MicroBT Whatsminer M33S++,MicroBT,microbt-whatsminer-m33s,242,7260,30,2025-11-15 15:30:22 UTC
+86ca4b94b6838eba758fcdd9da31a4c5cc384526,Canaan Avalon Miner A1366I,Canaan,canaan-avalon-miner-a1366i,119,3570,30,2025-11-15 15:30:22 UTC
+a11e499ed0f91399988fc7b98c460cdb2769d0bb,Canaan Avalon Made A1346,Canaan,canaan-avalon-made-a1346,110,3300,30,2025-11-15 15:30:22 UTC
+14e890c7e8cbf06a1c0fd5168a1bb2d87276a6a5,Bitmain Antminer S19j Pro (100Th),Bitmain,bitmain-antminer-s19j-pro-100th,100,3050,30.5,2025-11-15 15:30:22 UTC
+aaabd03646d9f42fdbbe7e1f215f23b85116abfe,MicroBT Whatsminer M30S++,MicroBT,microbt-whatsminer-m30s-2,112,3472,31,2025-11-15 15:30:22 UTC
+0581e7c94c284870d30659a6c0e449a9a7ab4ed1,MicroBT Whatsminer M36S+,MicroBT,microbt-whatsminer-m36s,164,5576,34,2025-11-15 15:30:22 UTC
+e78e1c8a184b06b3cfaaf828461fb13f7de798a6,MicroBT Whatsminer M30S+,MicroBT,microbt-whatsminer-m30s-1,100,3400,34,2025-11-15 15:30:22 UTC
+edf513b51da802993b119f014c678c2286d3ae6b,Bitmain Antminer S19 (95Th),Bitmain,bitmain-antminer-s19-95th,95,3250,34.21,2025-11-15 15:30:22 UTC
+c439c60b7bf00fc6d80b76312309f8dc6107f635,Antminer S19j,Antminer,antminer-s19j,90,3100,34.44,2025-11-15 15:30:22 UTC
+7e107de3fa1437e84bc766bf7c84641bcd258a7c,Bitmain Antminer S19 Hydro (158Th),Bitmain,bitmain-antminer-s19-hydro-158th,158,5451,34.5,2025-11-15 15:30:22 UTC
+ae46f54463e402e22467f5b8bf2ec3993015418a,Bitmain Antminer T19 Hydro (158Th),Bitmain,bitmain-antminer-t19-hydro-158th,158,5451,34.5,2025-11-15 15:30:22 UTC
+b00168585f7b81b68f0ef02ffa919c710fb6f592,Antminer S19 Hydro,Antminer,antminer-s19-hydro,158,5451,34.5,2025-11-15 15:30:22 UTC
+f6b9b6ccd0440bc448ae4b0267c316b751bcf826,Antminer S19a,Antminer,antminer-s19a,100,3450,34.5,2025-11-15 15:30:22 UTC
+ac5c0955be131109298da1d8cb38a50d16c9e9ba,Canaan Avalon Nano 3,Canaan,canaan-avalon-nano-3,4,140,35,2025-11-15 15:30:22 UTC
+521a04f995a04cd8fc7e4e06e39e7af1281b0d04,Bitmain Antminer S19j (90Th),Bitmain,bitmain-antminer-s19j-90th,90,3250,36.11,2025-11-15 15:30:22 UTC
+3bd7c32b3c79dd85151c6588a929609c0b214c0b,Bitmain Antminer T19 Hydro (145Th),Bitmain,bitmain-antminer-t19-hydro-145th,145,5438,37.5,2025-11-15 15:30:22 UTC
+a62b0adc61c5087854bd2fa235311f0bc025d244,Bitmain Antminer T19 (84Th),Bitmain,bitmain-antminer-t19-84th,84,3150,37.5,2025-11-15 15:30:22 UTC
+4c8205da3610a61583b64c7faeb86dd040cace63,Antminer T19,Antminer,antminer-t19,84,3150,37.5,2025-11-15 15:30:22 UTC
+940ba86618c4d231993c846b98af0a49d9d6163a,Canaan AvalonMiner 1246,Canaan,canaan-avalonminer-1246,90,3420,38,2025-11-15 15:30:22 UTC
+9e2553b4729960d0efbeec435882668ffd0dff70,Bitmain Antminer T19 (88Th),Bitmain,bitmain-antminer-t19-88th,88,3344,38,2025-11-15 15:30:22 UTC
+a4a15d15b6e6fdf9c95a4de9b40896e3f89bee1e,MicroBT Whatsminer M30S,MicroBT,microbt-whatsminer-m30s,86,3268,38,2025-11-15 15:30:22 UTC
+b14de54732679e9a21e028626b71ede6b884a6b1,Bitmain Antminer S17 Pro (50Th),Bitmain,bitmain-antminer-s17-pro-50th,50,1975,39.5,2025-11-15 15:30:22 UTC
+3c4a80dbdfac57d174d1cab8d11d03ad91888820,Bitmain Antminer S17 Pro (53Th),Bitmain,bitmain-antminer-s17-pro-53th,53,2094,39.51,2025-11-15 15:30:22 UTC
+f37062d9a65543a46f2ba13299ba77a370a1c4eb,Hummer Miner H9 Pro,Hummer Miner,hummer-miner-h9-pro,84,3360,40,2025-11-15 15:30:22 UTC
+8479315e5f0a64098994c2cc3e28e3d18ff94a3a,StrongU Hornbill H8 Pro,StrongU,strongu-hornbill-h8-pro,84,3360,40,2025-11-15 15:30:22 UTC
+507ccf1d683cee3ba79bbc61648f431badea4635,Bitmain Antminer S17+ (73Th),Bitmain,bitmain-antminer-s17-73th,73,2920,40,2025-11-15 15:30:22 UTC
+c1aa04bf421e5b38c3d18933e9994d3f289def65,Antminer S17+,Antminer,antminer-s17-plus,73,2920,40,2025-11-15 15:30:22 UTC
+1922466a71c505375aabf260fc5d381952ac0103,Heatbit Heatbit Trio,Heatbit,heatbit-heatbit-trio,10,400,40,2025-11-15 15:30:22 UTC
+a93cf93db3ae6d491e1b4fc8c4e1d869daa36a33,Braiins BMM100,Braiins,braiins-bmm100,1,40,40,2025-11-15 15:30:22 UTC
+412a33ae14746612317b013dc23213cd79b5f3f3,Braiins BMM101,Braiins,braiins-bmm101,1,40,40,2025-11-15 15:30:22 UTC
+7e1fa886217d76d01525f11d1c4fdb7f8def82dd,Canaan AvalonMiner 1166 Pro,Canaan,canaan-avalonminer-1166-pro,81,3400,41.98,2025-11-15 15:30:22 UTC
+445cd2fd3273962bdf09425109a2d09f7170e837,MicroBT Whatsminer M31S+,MicroBT,microbt-whatsminer-m31s-1,80,3360,42,2025-11-15 15:30:22 UTC
+1938b79762f018cf11cc7d1011b8157840d37e60,Innosilicon T3+ 52T,Innosilicon,innosilicon-t3-52t,52,2200,42.31,2025-11-15 15:30:22 UTC
+19187dc98dce52fa4c4e8e05b341a9b77a51fd26,Cheetah Miner F5+,Cheetah Miner,cheetah-miner-f5-plus,66,2838,43,2025-11-15 15:30:22 UTC
+c53c713e8cecf9c30d48b4fac7a94c7250681ac2,MicroBT Whatsminer M31S,MicroBT,microbt-whatsminer-m31s,76,3344,44,2025-11-15 15:30:22 UTC
+4bcc6482e86281fc69806594a97a6e16c6b0cf6c,StrongU Hornbill H8,StrongU,strongu-hornbill-h8,74,3330,45,2025-11-15 15:30:22 UTC
+97f43a955a6f161878c64f2eb632d1e703c3f31a,Bitmain Antminer S17e (64Th),Bitmain,bitmain-antminer-s17e-64th,64,2880,45,2025-11-15 15:30:22 UTC
+f76b2ea6b45eff3bc8e4399145cc17a0601f5c8d,Antminer S17e,Antminer,antminer-s17e,64,2880,45,2025-11-15 15:30:22 UTC
+42c8a5c680165278f25380334dfbc856a831f196,Bitmain Antminer S17 (56Th),Bitmain,bitmain-antminer-s17-56th,56,2520,45,2025-11-15 15:30:22 UTC
+9fb005ca3b35446439122addce1cc72bbbd63eca,Bitmain Antminer S17 (53Th),Bitmain,bitmain-antminer-s17-53th,53,2385,45,2025-11-15 15:30:22 UTC
+7eab03474ef222ca582105938fd0b07ec95e64ce,Ebang Ebit E11++,Ebang,ebang-ebit-e11-2,44,1980,45,2025-11-15 15:30:22 UTC
+fea7f657f56a2a448da7d4b535ee5e279caf3d9a,StrongU STU-U8,StrongU,strongu-stu-u8,46,2100,45.65,2025-11-15 15:30:22 UTC
+8ab82852e205519ae0d845a140db3e52ed730581,StrongU STU-U8 Pro,StrongU,strongu-stu-u8-pro,60,2800,46.67,2025-11-15 15:30:22 UTC
+3113c7f452f57e07f53fbd5d0385a85448b094d0,Bolon Miner B11,Bolon Miner,bolon-miner-b11,70,3300,47.14,2025-11-15 15:30:22 UTC
+cd0613ba91fbab0c5af2827e308e487e267d28a0,Canaan AvalonMiner 1166 Pro S 72T,Canaan,canaan-avalonminer-a1166-pro-s-72t,72,3420,47.5,2025-11-15 15:30:22 UTC
+2a7541babb57434e5631ffa2b5639e24f8ce84fc,Innosilicon T3 43T,Innosilicon,innosilicon-t3-43t,43,2100,48.84,2025-11-15 15:30:22 UTC
+dff48911e003ebe49473a85a4ad490b1d9a85111,Innosilicon T3 43T,Innosilicon,innosilicon-t3-43t,43,2100,48.84,2025-11-15 15:30:22 UTC
+2a79f14120945873482b7823caabe2fcde848722,Innosilicon T3+Pro 67T,Innosilicon,innosilicon-t3-pro-67t,67,3300,49.25,2025-11-15 15:30:22 UTC
+04e8696e6424c21d717e46008780505d598eb59a,MicroBT Whatsminer M20S,MicroBT,microbt-whatsminer-m20s,68,3360,49.41,2025-11-15 15:30:22 UTC
+0164a549693d057f3579be1c6d7e2fa63460d3e6,Bitmain Antminer T17+ (64Th),Bitmain,bitmain-antminer-t17-64th,64,3200,50,2025-11-15 15:30:22 UTC
+572e20738130fddc7c389f2ab14f4e4b22a97c39,Antminer T17+,Antminer,antminer-t17-plus,64,3200,50,2025-11-15 15:30:22 UTC
+35006d20b65b0d5c62e933195a3d1e04e0b41971,iPollo B1L,iPollo,ipollo-b1l,60,3000,50,2025-11-15 15:30:22 UTC
+f56b036b2b7ee161296702a7022b11ee08c12d08,Ebang Ebit E12+,Ebang,ebang-ebit-e12-1,50,2500,50,2025-11-15 15:30:22 UTC
+27285271b352adb77c2ca213d92c21ef680fb133,Bitmain Antminer S15 (28Th),Bitmain,bitmain-antminer-s15-28th,17,850,50,2025-11-15 15:30:22 UTC
+7a3673352434418a2371b63e704acf83e13e2ad5,Canaan AvalonMiner 1126 Pro,Canaan,canaan-avalonminer-1126-pro,68,3420,50.29,2025-11-15 15:30:22 UTC
+e26973e6ee8ab9cd8cb3f207d1b90f00d2669eff,Canaan AvalonMiner 1126 Pro S 68T,Canaan,canaan-avalonminer-a1126-pro-s-68t,68,3420,50.29,2025-11-15 15:30:22 UTC
+74b5805c21b86f07deafd72a1a5c3ae2e4184f98,MicroBT Whatsminer M32S,MicroBT,microbt-whatsminer-m32s,66,3432,52,2025-11-15 15:30:22 UTC
+07cef16b46a72f33f6a597a473845b1e89e0278e,Canaan AvalonMiner 1146 Pro,Canaan,canaan-avalonminer-1146-pro,63,3276,52,2025-11-15 15:30:22 UTC
+787d41d9c35c57ef9e4aba799bacefac312149a4,Canaan AvalonMiner 1126 Pro S 64T,Canaan,canaan-avalonminer-a1126-pro-s-64t,64,3420,53.44,2025-11-15 15:30:22 UTC
+8393e8e13cf2a84516f7146cc2f58dbc8f771a3b,MicroBT Whatsminer M32,MicroBT,microbt-whatsminer-m32,62,3348,54,2025-11-15 15:30:22 UTC
+b72c09eae1de4d78d2dc52ec99ecaed96f973644,Bitmain Antminer T17e (53Th),Bitmain,bitmain-antminer-t17e-53th,53,2915,55,2025-11-15 15:30:22 UTC
+2659fc519890c924f82b4475ddd71b058178d02b,Antminer T17e,Antminer,antminer-t17e,53,2915,55,2025-11-15 15:30:22 UTC
+111e164fbf3f3601cc895b7b9e6f7269d05a6355,Bitmain Antminer T17 (40Th),Bitmain,bitmain-antminer-t17-40th,40,2200,55,2025-11-15 15:30:22 UTC
+ac2646028f5b8b9bbf7a967f4ac71b8866135211,Antminer T17,Antminer,antminer-t17,40,2200,55,2025-11-15 15:30:22 UTC
+4dea1daedbe9dc1d643b0f0eb8ab57c7d532f771,Innosilicon T3 40T,Innosilicon,innosilicon-t3-40t,40,2200,55,2025-11-15 15:30:22 UTC
+318c2de5adad5fc591adc2576ec060db3021a6af,Ebang Ebit E11+,Ebang,ebang-ebit-e11-1,37,2035,55,2025-11-15 15:30:22 UTC
+8b7471f4ae0bf59f5f0a425068c05d96f4801b9e,Innosilicon T3 39T,Innosilicon,innosilicon-t3-39t,39,2150,55.13,2025-11-15 15:30:22 UTC
+676465d91aad816c4bdd02e1441eaa303aeb6b0e,Innosilicon T3 39T,Innosilicon,innosilicon-t3-39t,39,2150,55.13,2025-11-15 15:30:22 UTC
+924235a2c5238dc63b88b7347ca36c2cba09c5b2,Ebang Ebit E12,Ebang,ebang-ebit-e12,44,2500,56.82,2025-11-15 15:30:22 UTC
+bbcbb1e844266f4abdfc29b3d8a64628607fa47e,Canaan AvalonMiner 1126 Pro S 60T,Canaan,canaan-avalonminer-a1126-pro-s-60t,60,3420,57,2025-11-15 15:30:22 UTC
+0bad865a02d82f4970687ffe1b80822b76cc0626,Cheetah Miner F5,Cheetah Miner,cheetah-miner-f5,55,3135,57,2025-11-15 15:30:22 UTC
+14bb99f81147d2705f53a1d75337b2ec3e10d23a,Innosilicon T3+ 57T,Innosilicon,innosilicon-t3-57t,57,3300,57.89,2025-11-15 15:30:22 UTC
+3e7955b888a68328335aae46d0c59a5a9c71d1d1,Innosilicon T3+ 57T,Innosilicon,innosilicon-t3-57t,57,3300,57.89,2025-11-15 15:30:22 UTC
+828f720439cefaeb3acc7a7babce0a28abaa07a3,Cheetah Miner F5I,Cheetah Miner,cheetah-miner-f5i,60,3480,58,2025-11-15 15:30:22 UTC
+14e7c3fe18fe6c317b09c7f9cd32a59f0718d7a0,MicroBT Whatsminer M21S,MicroBT,microbt-whatsminer-m21s,56,3360,60,2025-11-15 15:30:22 UTC
+9a15f42d1c524c306eb91c3df1216db248a8f224,Cheetah Miner F5M,Cheetah Miner,cheetah-miner-f5m,52,3120,60,2025-11-15 15:30:22 UTC
+2dc268d0d03abaa20746b0c9fb00b8789525382d,MicroBT Whatsminer M21,MicroBT,microbt-whatsminer-m21,31,1860,60,2025-11-15 15:30:22 UTC
+64ccc7533460801b124e476834ea5802fd29109b,Bitmain Antminer T15 (23Th),Bitmain,bitmain-antminer-t15-23th,20,1200,60,2025-11-15 15:30:22 UTC
+ae528b1a3af1e4459fae31a40a36af24c97ff653,Innosilicon T3 50T,Innosilicon,innosilicon-t3-50t,50,3100,62,2025-11-15 15:30:22 UTC
+752ae7bdbb96bf25280b55990570beabf2048ce0,Innosilicon T3 50T,Innosilicon,innosilicon-t3-50t,50,3100,62,2025-11-15 15:30:22 UTC
+befe497a740c8f4aabb635c06f07549336d5360d,MicroBT Whatsminer M10S,MicroBT,microbt-whatsminer-m10s,55,3500,63.64,2025-11-15 15:30:22 UTC
+247317edd2fbed736ea0c9d3ea37d66a738ad34a,Canaan AvalonMiner 1047,Canaan,canaan-avalonminer-1047,37,2380,64.32,2025-11-15 15:30:22 UTC
+beab76da6766b1876a3c54e25e8df53142485962,Canaan AvalonMiner 1066,Canaan,canaan-avalonminer-1066,50,3250,65,2025-11-15 15:30:22 UTC
+49e3d046636e06b2d82ee046db8e6eb9a2e11e16,Hummer Miner H7 Pro 48 TH,Hummer Miner,hummer-miner-h7-pro-48-th,48,3120,65,2025-11-15 15:30:22 UTC
+6ec4d1b66f18a9da05ced5ce5a7eda849e304766,MicroBT Whatsminer M10,MicroBT,microbt-whatsminer-m10,33,2145,65,2025-11-15 15:30:22 UTC
+d0d323aaf1e89bc1b4091e6d83a993c2a06a5612,Ebang Ebit E11,Ebang,ebang-ebit-e11,30,1950,65,2025-11-15 15:30:22 UTC
+31b221275a4ea00db3a70df04d04a900feedc4c8,Innosilicon T2 Turbo+ 32T,Innosilicon,innosilicon-t2-turbo-32t,32,2200,68.75,2025-11-15 15:30:22 UTC
+1cc641954099c249e0e4ef0402da3fd0364d95f0,Bitfury RD4,Bitfury,bitfury-rd4,25,1720,68.8,2025-11-15 15:30:22 UTC
+5f23700d7850a4cbb7b31addb53e98f376432008,Holic H22,Holic,holic-h22,22,1600,72.73,2025-11-15 15:30:22 UTC
+e2154fea5da2dd0d1732ff30931723c2973003a0,Cheetah Miner F3,Cheetah Miner,cheetah-miner-f3,30,2200,73.33,2025-11-15 15:30:22 UTC
+b4182bff4b3cf75f9e54f4990f9bd153c0c2973c,Innosilicon T2T-30T,Innosilicon,innosilicon-t2t-30t,30,2200,73.33,2025-11-15 15:30:22 UTC
+c076cfc485c8ba2f77ebc74a81dcd94bc3eb540d,Bitmain Antminer S11 (20.5Th),Bitmain,bitmain-antminer-s11-20-5th,20.5,1530,74.63,2025-11-15 15:30:22 UTC
+02cbcb76348e2688dc6bddf8007fa8b871eafb30,Holic H28,Holic,holic-h28,28,2100,75,2025-11-15 15:30:22 UTC
+0aa4bbc6beec37006c96175063f2858351468274,Innosilicon T2 Turbo 29T/30T,Innosilicon,innosilicon-t2-turbo-29t-30t,29,2280,78.62,2025-11-15 15:30:22 UTC
+299beb96f6e9b00417bc3a311ab95964a71b521f,Bitfury Tardis,Bitfury,bitfury-tardis,80,6300,78.75,2025-11-15 15:30:22 UTC
+4a5b94151967c0bb1e6ca8c9a825dafc1dbeecd2,Innosilicon T2 Turbo HF+,Innosilicon,innosilicon-t2-turbo-hf,33,2600,78.79,2025-11-15 15:30:22 UTC
+c255e4e00d1e8081e3b3e0e0f1a6682fb90811f6,Bitmain Antminer S9 SE (16Th),Bitmain,bitmain-antminer-s9-se-16th,16,1280,80,2025-11-15 15:30:22 UTC
+9d8974baddfc0e53300829f37e5fc88b0f5ce61b,Antminer S9 SE,Antminer,antminer-s9-se,16,1280,80,2025-11-15 15:30:22 UTC
+39b0e488d262e736e180d2debc0d264857639fc8,Innosilicon T2 Turbo 26T,Innosilicon,innosilicon-t2-turbo-26t,26,2100,80.77,2025-11-15 15:30:22 UTC
+e794a80eb109162d579df51db6d52e223bb0e9be,Innosilicon T2T-26T,Innosilicon,innosilicon-t2t-26t,26,2100,80.77,2025-11-15 15:30:22 UTC
+d7c1f0dd609c0024d00c7eb35743bcc476459876,GMO miner B2,GMO miner,gmo-miner-b2-1,24,1950,81.25,2025-11-15 15:30:22 UTC
+5ca4045f83677d68114a72586591727fefe7b0c2,Innosilicon T2 Turbo 25T,Innosilicon,innosilicon-t2-turbo-25t,23,1880,81.74,2025-11-15 15:30:22 UTC
+5b1d6dc017e823108cf73adebe3f519e20021340,Innosilicon T2 Turbo,Innosilicon,innosilicon-t2-turbo,24,1980,82.5,2025-11-15 15:30:22 UTC
+b69b41ad4ea2497b34771874693c46b855ceb36a,Canaan AvalonMiner 921,Canaan,canaan-avalonminer-921,20,1700,85,2025-11-15 15:30:22 UTC
+6052521b7625e31d4ee9cc706732484fcf850877,Antminer S9k,Antminer,antminer-s9k,13.5,1148,85.04,2025-11-15 15:30:22 UTC
+bae6cc738619d483e071055c87eb596982bb09c4,Bitfily Snow Panther B1+,Bitfily,bitfily-snow-panther-b1-1,24.5,2100,85.71,2025-11-15 15:30:22 UTC
+1e2b6f89ce172829bd39fd1a0ea194b9617adc6d,Bitfily Snow Panther B1,Bitfily,bitfily-snow-panther-b1,16,1380,86.25,2025-11-15 15:30:22 UTC
+a165fbd61c277745f187eaac7182d9c05d0d1171,Bitfury B8,Bitfury,bitfury-b8,72,6300,87.5,2025-11-15 15:30:22 UTC
+9f9af029585ba014e07cd3910ca976cf56160616,Aladdin T1 32T ,Aladdin,aladdin-t1-32t,32,2800,87.5,2025-11-15 15:30:22 UTC
+7f03f3f2febc46f3fa832d98251b0c98f64bc19b,Aladdin T1 16T ,Aladdin,aladdin-t1-16t,16,1400,87.5,2025-11-15 15:30:22 UTC
+52c88b165a3a614a5e3ceac0074bad92d5bb1c0a,Innosilicon T2 Terminator,Innosilicon,innosilicon-t2-terminator,17.2,1570,91.28,2025-11-15 15:30:22 UTC
+61188f24396807ba7ca38919a158766de935852e,Aisen A1 24T,Aisen,aisen-a1-24t,24,2200,91.67,2025-11-15 15:30:22 UTC
+e8e44b0fdc368e9421252c098358e3cbd5d353c1,Ebang Ebit E10,Ebang,ebang-ebit-e10,18,1650,91.67,2025-11-15 15:30:22 UTC
+87e8db4f2338ba69baa1c7d4e60969caf4f06d9e,Halong Mining DragonMint T1,Halong Mining,halong-mining-dragonmint-t1,16,1480,92.5,2025-11-15 15:30:22 UTC
+2fa140c93c9ef2b0a7c42257c590a32033d6fd98,Bitmain Antminer S9j (14.5Th),Bitmain,bitmain-antminer-s9j-14-5th,14.5,1350,93.1,2025-11-15 15:30:22 UTC
+40a2515249febef1b455ee603b0c08ba0b984c5b,Bitmain Antminer S9i (14Th),Bitmain,bitmain-antminer-s9i-14th,14,1320,94.29,2025-11-15 15:30:22 UTC
+bb0d03aedf17d3014ed22818c328ad33bc134b84,Canaan AvalonMiner 841,Canaan,canaan-avalonminer-841,13.6,1290,94.85,2025-11-15 15:30:22 UTC
+83e6d84bd1181d61c202289b2055bc6cfacd19a4,Aisen A1 Pro,Aisen,aisen-a1-pro,23,2200,95.65,2025-11-15 15:30:22 UTC
+dbf91818e8d53646928cf0ffb60cc9fa1f3bddf9,Bitmain Antminer S9 Hydro (18Th),Bitmain,bitmain-antminer-s9-hydro-18th,18,1728,96,2025-11-15 15:30:22 UTC
+c1a38b8a671f58b20d4079b68d6533216db2a364,Antminer S9 Hydro,Antminer,antminer-s9-hydro,18,1728,96,2025-11-15 15:30:22 UTC
+b1d5781111d84f7b3fe45a0852e59758cd7a87e5,Antminer S9j,Antminer,antminer-s9j,14,1350,96.43,2025-11-15 15:30:22 UTC
+08a792dc40c68126b100f35c9ea81fc80a477fbb,Bitmain Antminer S9k (13.5Th),Bitmain,bitmain-antminer-s9k-13-5th,13.5,1310,97.04,2025-11-15 15:30:22 UTC
+13ee964ffdf6e8d6e40d041d06f6ef2812ab64bb,Bitmain Antminer R4,Bitmain,bitmain-antminer-r4,8.7,845,97.13,2025-11-15 15:30:22 UTC
+390a452ac5b4655b709df89c9d284929225d4e2a,Bitmain Antminer S9 (14Th),Bitmain,bitmain-antminer-s9-14th,14,1372,98,2025-11-15 15:30:22 UTC
+a40eb3af3502a5be5c9e788b9ae7727ba221dbaf,Bitmain Antminer S9 (13.5Th),Bitmain,bitmain-antminer-s9-13-5th,13.5,1323,98,2025-11-15 15:30:22 UTC
+4049da66c1965acdf504363250695627b0a9e32e,Bitmain Antminer S9 (12.5Th),Bitmain,bitmain-antminer-s9-12-5th,12.5,1225,98,2025-11-15 15:30:22 UTC
+89f5d5fd2400d9df9568976be5b43721c9d90a1b,Bitmain Antminer S9 (11.5Th),Bitmain,bitmain-antminer-s9-11-5th,11.5,1127,98,2025-11-15 15:30:22 UTC
+0ade7c2cf97f75d009975f4d720d1fa6c19f4897,Antminer S9i,Antminer,antminer-s9i,13,1280,98.46,2025-11-15 15:30:22 UTC
+39e21432a7dcba489697b4ef779f4b0c6f08b89f,Bitmain Antminer S9i (13Th),Bitmain,bitmain-antminer-s9i-13th,13,1290,99.23,2025-11-15 15:30:22 UTC
+e182c2172761f9deac3cdc797925b0b32547a1c1,Heatbit Heatbit,Heatbit,heatbit-heatbit,14,1400,100,2025-11-15 15:30:22 UTC
+271e283cdf2d8cd6544390a4f304d279ccd2db84,Bitmain Antminer S9 (13Th),Bitmain,bitmain-antminer-s9-13th,13,1300,100,2025-11-15 15:30:22 UTC
+fe5dbbcea5ce7e2988b8c69bcfdfde8904aabc1f,Antminer S9,Antminer,antminer-s9,13,1300,100,2025-11-15 15:30:22 UTC
+ef4a2c3c0b2f7871f8897cdbf7028407d899f91f,GMO miner B3,GMO miner,gmo-miner-b3,33,3417,103.55,2025-11-15 15:30:22 UTC
+1a95ad74a660b002850095b906f53328ffa173c6,Canaan AvalonMiner 821,Canaan,canaan-avalonminer-821,11.5,1200,104.35,2025-11-15 15:30:22 UTC
+d1c2fc6828b03a590a5298569f9bd616af775020,Ebang Ebit E9i,Ebang,ebang-ebit-e9i,13.5,1420,105.19,2025-11-15 15:30:22 UTC
+cfa2ed2aac6d61f44ca9cba73e1e8946b7cd7d22,Ebang Ebit E10.3,Ebang,ebang-ebit-e10-3,24,2640,110,2025-11-15 15:30:22 UTC
+9d985188444175d30c709f634f65967f67f1ae22,Ebang Ebit E9.3,Ebang,ebang-ebit-e9-3,16,1760,110,2025-11-15 15:30:22 UTC
+197683089129fe7b3ac931b55b335876df122118,Ebang Ebit E9.2,Ebang,ebang-ebit-e9-2,12,1320,110,2025-11-15 15:30:22 UTC
+fd93ac461456a118d38a8d6b4d18f6741682f3eb,Bitfily Snow Panther A1,Bitfily,bitfily-snow-panther-a1,49,5400,110.2,2025-11-15 15:30:22 UTC
+a9d8fbe9698c8454770ce0b4b33c9651573ccb81,Pantech SX6,Pantech,pantech-sx6,8.5,1000,117.65,2025-11-15 15:30:22 UTC
+31d4596aaf7504ba33b2b1e75aa1ab1f08180eb3,Bitmain Antminer T9 (12.5Th),Bitmain,bitmain-antminer-t9-12-5th,12.5,1576,126.08,2025-11-15 15:30:22 UTC
+f232598e6c2bcf9d961844c134586c103e4f0323,Bitmain Antminer T9 (11.5Th),Bitmain,bitmain-antminer-t9-11-5th,11.5,1450,126.09,2025-11-15 15:30:22 UTC
+35e995c107a71caeb833bb3b79f9f54781b33fa1,Antminer T9,Antminer,antminer-t9,11.5,1450,126.09,2025-11-15 15:30:22 UTC
+f0ee73df9003ca43916e249abfbefc5a983b346f,Bitfury B8,Bitfury,bitfury-b8,49,6400,130.61,2025-11-15 15:30:22 UTC
+9e6a55b6b4563e652a23be9d623ca5055c356940,Antminer T9+,Antminer,antminer-t9plus,10.5,1430,136.19,2025-11-15 15:30:22 UTC
+aaccb8bb2b4c442a7c16a9b209c9ff448c6c5f35,Bitmain Antminer T9+ (10.5Th),Bitmain,bitmain-antminer-t9-10-5th,10.5,1432,136.38,2025-11-15 15:30:22 UTC
+89db695bb2cc996e3f9672e109b79789906e6af4,Ebang Ebit E10D,Ebang,ebang-ebit-e10d,25,3500,140,2025-11-15 15:30:22 UTC
+da45dba05679ecb35ac4ece16786e6a8e1bf621b,Ebang Ebit E9+,Ebang,ebang-ebit-e9,9,1300,144.44,2025-11-15 15:30:22 UTC
+3c13c8c0aa4c4dc60d407f2cb81d1d1496a8bfbd,Pantech WX6,Pantech,pantech-wx6,34,5000,147.06,2025-11-15 15:30:22 UTC
+a002f2f44c4eb97169796e571751a450aa506770,Canaan AvalonMiner 741,Canaan,canaan-avalonminer-741,7.3,1150,157.53,2025-11-15 15:30:22 UTC
+d1c382ecf779cee65f1396c723cf2a1aa2dc5b42,MicroBT Whatsminer M3X,MicroBT,microbt-whatsminer-m3x,12.5,2050,164,2025-11-15 15:30:22 UTC
+89b98f7be8afc23ebefc3e02f86ebb89cbe74176,MicroBT Whatsminer M3,MicroBT,microbt-whatsminer-m3,12,2000,166.67,2025-11-15 15:30:22 UTC
+7c8b72146cc7eb1761d462eb86287a01d21b5e7a,Ebang Ebit E9,Ebang,ebang-ebit-e9-1,6.3,1077,170.95,2025-11-15 15:30:22 UTC
+cb8f7e8cdf016fda78397b236386b9e815332249,Bitmain Antminer V9 (4Th),Bitmain,bitmain-antminer-v9-4th,4,1027,256.75,2025-11-15 15:30:22 UTC
+d435a6cdd786300dff204ee7c2ef942d3e9034e2,Antminer V9,Antminer,antminer-v9,4,1030,257.5,2025-11-15 15:30:22 UTC
+ac282f85d8a2df517f522328df90442718faec10,Bitmain Antminer S7-LN,Bitmain,bitmain-antminer-s7-ln,2.7,697,258.15,2025-11-15 15:30:22 UTC
+6f93dce77a5a5f9cbeff97fcec4e046e9d344086,Bitmain Antminer S7,Bitmain,bitmain-antminer-s7,4.73,1293,273.36,2025-11-15 15:30:22 UTC
+bb8cc0f17fb468c02e8bf046ef7c58ddce00b48c,Bitmain Antminer S5,Bitmain,bitmain-antminer-s5,1.16,590,508.62,2025-11-15 15:30:22 UTC
+ac3478d69a3c81fa62e60f5c3696165a4e5e6ac4,Antminer S4,Antminer,antminer-s4,2,1400,700,2025-11-15 15:30:22 UTC
+0cccfeabe70a0a074082c2b1740f7661cdb7202b,Bitmain Antminer S3,Bitmain,bitmain-antminer-s3,0.48,366,765.69,2025-11-15 15:30:22 UTC
+09b34e8d87747fec93856e3c350459b1b880d324,Jingle Miner BTC Solo Mini,Jingle Miner,jingle-miner-btc-solo-mini,0,1,3333333.33,2025-11-15 15:30:22 UTC
